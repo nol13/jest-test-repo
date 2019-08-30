@@ -1,24 +1,6 @@
 module.exports = {
   clearMocks: true,
   collectCoverage: false,
-  "collectCoverageFrom": [
-    "src/**/*.{js,jsx}"
-  ],
-  coverageDirectory: "coverage",
-  coveragePathIgnorePatterns: [
-    "/node_modules/",
-    "/test/"
-  ],
-  coverageReporters: [
-    "text",
-    "text-summary",
-    "lcov"
-  ],
-  reporters: [
-    "default",
-    ["jest-junit", { output: "./Build/ciutests/junit.xml" }]
-  ],
-
   setupTestFrameworkScriptFile: "./jest/setup.js",
   // jest 24:
   snapshotSerializers: ["enzyme-to-json/serializer"],
