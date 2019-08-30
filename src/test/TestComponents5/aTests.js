@@ -8,7 +8,7 @@ describe('A', () => {
     let wrapper = mount(
       <A someprop={3} />
     );
-    global.expect(toJson(wrapper)).toMatchSnapshot();
+    expect(toJson(wrapper)).toMatchSnapshot();
     expect(wrapper.find('div').length).toEqual(1);
   });
 });

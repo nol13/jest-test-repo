@@ -9,13 +9,13 @@ describe('C', () => {
     let wrapper = mount(
       <C someprop={6} />
     );
-    global.expect(toJson(wrapper)).toMatchSnapshot();
+    expect(toJson(wrapper)).toMatchSnapshot();
     expect(wrapper.find('div').length).toEqual(3);
   });
   it('renders b again', () => {
     let wrapper = mount(
       <B someprop={6} />
     );
-    global.expect(toJson(wrapper)).toMatchSnapshot();
+    expect(toJson(wrapper)).toMatchSnapshot();
   });
 });
