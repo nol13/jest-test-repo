@@ -5,14 +5,14 @@ exports[`B renders 1`] = `
   someprop={6}
 >
   <div
-    className="b--bContain--1sebw"
+    className="bContain"
     someprop={6}
   >
     <A
       label="test"
     >
       <div
-        className="a--aContain--1-O8k"
+        className="aContain"
       >
         test
       </div>

@@ -5,7 +5,7 @@ exports[`A renders 1`] = `
   someprop={3}
 >
   <div
-    className="a--aContain--1-O8k"
+    className="aContain"
   />
 </A>
 `;
