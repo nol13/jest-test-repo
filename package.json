@@ -27,8 +27,6 @@
     "babel-plugin-import-directory": "1.1.0",
     "babel-plugin-react-require": "3.0.0",
     "babel-plugin-transform-react-remove-prop-types": "0.4.24",
-    "chai": "4.2.0",
-    "chai-as-promised": "7.1.1",
     "core-js": "2.6.9",
     "css-loader": "1.0.1",
     "enzyme": "3.10.0",

@@ -1,34 +1,5 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`C renders 1`] = `
-<C
-  someprop={6}
->
-  <div
-    className="c--cContain--R2vqp"
-  >
-    <B
-      testprop={57}
-    >
-      <div
-        className="b--bContain--1sebw"
-        testprop={57}
-      >
-        <A
-          label="test"
-        >
-          <div
-            className="a--aContain--1-O8k"
-          >
-            test
-          </div>
-        </A>
-      </div>
-    </B>
-  </div>
-</C>
-`;
-
 exports[`C renders b again 1`] = `
 <B
   someprop={6}
