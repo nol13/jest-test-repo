@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`B renders 1`] = `
+<B
+  someprop={6}
+>
+  <div
+    className="b--bContain--1sebw"
+    someprop={6}
+  >
+    <A
+      label="test"
+    >
+      <div
+        className="a--aContain--1-O8k"
+      >
+        test
+      </div>
+    </A>
+  </div>
+</B>
+`;
